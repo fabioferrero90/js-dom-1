@@ -2,6 +2,7 @@
   margin:0;
   padding:0;
   box-sizing: border-box;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .container {
@@ -9,10 +10,17 @@
   max-width: 90%;
   margin:10vh auto;
   height:50vh;
+  border:1px solid black;
+  border-radius:2rem;
 }
 
 .d_flex {
   display:flex;
+  margin:2rem 5rem;
+}
+
+.d_none {
+  display:none
 }
 
 .w-50 {
@@ -30,6 +38,16 @@ button {
   padding: 20px;
   width:100%;
   border-radius:2rem;
+  transition:all ease .2s;
+}
+
+button:hover {
+  background-color: rgb(50, 50, 50);
+}
+
+button:active {
+  background-color: #251c8f; /* changed color when clicked */
+  transform: scale(0.9); /* optional: scale down on click */
 }
 
 img {
@@ -38,4 +56,11 @@ img {
 
 .reverse {
   transform: scaleX(-1);
+}
+
+.alert {
+  padding-top:2rem;
+  color:red;
+  text-align:center;
+  font-size:2rem;
 }
