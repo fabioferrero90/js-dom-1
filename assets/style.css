@@ -5,13 +5,23 @@
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+body {
+  background-color: black;
+}
+
+
 .container {
   width:900px;
   max-width: 90%;
   margin:10vh auto;
   height:50vh;
-  border:1px solid black;
+  border:1px solid white;
   border-radius:2rem;
+}
+
+.container > p {
+  text-align: center;
+  color:white;
 }
 
 .d_flex {
@@ -32,8 +42,8 @@
 }
 
 button {
-  background-color: black;
-  color:white;
+  background-color: rgb(255, 255, 255);
+  color:rgb(0, 0, 0);
   font-size:1.5rem;
   padding: 20px;
   width:100%;
@@ -42,7 +52,7 @@ button {
 }
 
 button:hover {
-  background-color: rgb(50, 50, 50);
+  background-color: rgb(142, 142, 142);
 }
 
 button:active {
