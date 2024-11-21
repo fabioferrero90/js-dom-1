@@ -1,0 +1,41 @@
+* {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+.container {
+  width:900px;
+  max-width: 90%;
+  margin:10vh auto;
+  height:50vh;
+}
+
+.d_flex {
+  display:flex;
+}
+
+.w-50 {
+  width:50%;
+}
+
+.flex_center {
+  align-items:center;
+}
+
+button {
+  background-color: black;
+  color:white;
+  font-size:1.5rem;
+  padding: 20px;
+  width:100%;
+  border-radius:2rem;
+}
+
+img {
+  max-width: 100%;
+}
+
+.reverse {
+  transform: scaleX(-1);
+}
